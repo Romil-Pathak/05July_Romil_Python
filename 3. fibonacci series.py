@@ -8,5 +8,5 @@ for i in range(0, num):
         number = n1 + n2
         n1 = n2
         n2 = number
-    print(number, end=' ')
+    print(number, end=', ')
 print()

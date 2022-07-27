@@ -1,13 +1,7 @@
-print('Input any word and press enter to add the another word:')
-words = input() 
-list = []
-while words != "":
-    list.append(words) 
-    words = input()
-print(list)
+x = input("Enter words separated by a space:")
+l = x.split()
 longest_word = 0
-for word in list:
+for word in l:
     if len(word) > longest_word:
-        longest_word = len(word)
-        words = word
-print("The length of the longest word in the given list of words is", len(words))
+        y = word
+print("The length of the longest word/words in the given list of words is", len(y))
